@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Jonik Budget</string>
+    <string name="label_password">Senha</string>
+    <string name="label_mail">E-mail</string>
 </resources>
