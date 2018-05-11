@@ -8,4 +8,34 @@
     <string name="tab_text_3">Tab 3</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="step_1_desc">Quais plataformas você precisa para o seu projeto?</string>
+    <string name="step_2_desc">Seu projeto deve ser executado em qual tipo de dispositivo?</string>
+    <string name="step_3_desc">Qual será a forma de acesso dos usuários?</string>
+    <string name="step_4_desc">Qual será o tamanho do seu projeto?</string>
+    <string name="step_5_desc">Precisa sincronizar dados entre dispositivos?</string>
+    <string name="step_6_desc">Seu aplicativo usa dados de localização?</string>
+    <string name="step_7_desc">Seu aplicativo usará o sistema de pagamento?</string>
+    <string name="step_8_desc">Como irá interagir com seus usuários?</string>
+    <string name="step_9_desc">Qual será a qualidade da sua experiência de usuário?</string>
+    <string name="step_10_desc">Qual estágio é o seu projeto?</string>
+    <string name="step_11_desc">Você precisará de um portal da web para gerenciar seu aplicativo?</string>
+    <string name="step_12_desc">Para quem é esse projeto?</string>
+    <string name="step_13_desc">Qual é a velocidade do projeto?</string>
+
+    <string-array name="steps">
+        <item>1.Plataforma</item>
+        <item>2.Dispositivos</item>
+        <item>3.Usuários</item>
+        <item>4.Tamanho</item>
+        <item>5.Dados</item>
+        <item>6.Localização</item>
+        <item>7.Pagamentos</item>
+        <item>8.Interações</item>
+        <item>9.Experiência</item>
+        <item>10.Estágio</item>
+        <item>11.Portal</item>
+        <item>12.Público</item>
+        <item>12.Velocidade</item>
+    </string-array>
 </resources>

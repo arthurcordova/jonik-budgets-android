@@ -31,6 +31,8 @@ class NewBudgetActivity : AppCompatActivity() {
      */
     private var mSectionsPagerAdapter: SectionsPagerAdapter? = null
 
+    private lateinit var items : Array<String>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_budget)
@@ -51,9 +53,11 @@ class NewBudgetActivity : AppCompatActivity() {
     }
 
     private fun configureTabs() {
-        val itemsText = listOf<String>("1 Dados inicias", "2 Teste")
 
-        for (i in itemsText) {
+
+        items = resources.getStringArray(R.array.steps)
+
+        for (i in items) {
             tabs.addTab(tabs.newTab().setText(i))
         }
 //        tabs.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
@@ -125,7 +129,7 @@ class NewBudgetActivity : AppCompatActivity() {
 
         override fun getCount(): Int {
             // Show 3 total pages.
-            return 2
+            return resources.getStringArray(R.array.steps).size
         }
     }
 
